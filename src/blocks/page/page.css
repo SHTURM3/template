@@ -1,0 +1,22 @@
+.page {
+  background-image: var(--main-bg);
+
+  background-repeat: no-repeat;
+
+  margin: 0;
+
+  padding: 0;
+
+  color: var(--tc_2);
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  grid-template-rows: 100px 1fr 100px;
+
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+}

@@ -1,0 +1,15 @@
+.header {
+  grid-area: header;
+
+  background-image: var(--accent-bg);
+
+  background-blend-mode: multiply;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  grid-template-rows: 1fr;
+
+  place-items: center center;
+}

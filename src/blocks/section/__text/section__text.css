@@ -1,0 +1,5 @@
+.section__text {
+  font-family: var(--ff-text);
+  font-size: var(--fz-text);
+  font-weight: 300;
+}

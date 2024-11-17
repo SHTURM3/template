@@ -1,0 +1,7 @@
+.section__title {
+  font-family: var(--ff-subtitle);
+
+  font-size: var(--fz-subtitle);
+
+  inline-size: max-content;
+}

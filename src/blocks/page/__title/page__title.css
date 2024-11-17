@@ -1,0 +1,9 @@
+.page__title {
+  font-family: var(--ff-title);
+
+  font-weight: 900;
+
+  font-size: var(--fz-title);
+
+  inline-size: max-content;
+}

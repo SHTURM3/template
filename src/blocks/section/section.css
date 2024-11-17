@@ -1,0 +1,17 @@
+.section {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  column-gap: 15px;
+
+  justify-items: center;
+
+  align-items: center;
+
+  border-block-start: 2px solid var(--tc_2);
+
+  border-block-end: 2px solid var(--tc_2);
+
+  padding-block: 25px;
+}

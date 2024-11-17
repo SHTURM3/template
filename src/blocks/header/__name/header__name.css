@@ -1,0 +1,11 @@
+.header__name {
+  font-family: var(--ff-subtitle);
+
+  font-size: var(--fz-subtitle);
+
+  font-weight: 500;
+
+  inline-size: max-content;
+
+  color: var(--tc_1);
+}

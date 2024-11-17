@@ -1,0 +1,29 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "Future projects template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'hello!'",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint **/*.css",
+    "lintfix": "stylelint **/*.css --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix",
+    "build": "gulp watchapp"
+  },
+  "author": "vizet",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "del": "^6.0.0",
+    "gulp": "^5.0.0",
+    "gulp-concat-css": "^1.2.0",
+    "gulp-plumber": "^1.2.1"
+  },
+  "dependencies": {
+    "prettier": "^3.3.3",
+    "stylelint": "^16.10.0"
+  }
+}

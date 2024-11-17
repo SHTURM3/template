@@ -1,0 +1,11 @@
+.footer__name {
+  font-family: var(--ff-subtitle);
+
+  font-size: var(--fz-subtitle);
+
+  font-weight: 500;
+
+  color: var(--tc_1);
+
+  inline-size: max-content;
+}

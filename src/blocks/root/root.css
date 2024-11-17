@@ -1,0 +1,32 @@
+:root {
+  /* Font Families */
+
+  --ff-title: 'Raleway';
+
+  --ff-subtitle: 'Montserrat Alternates';
+
+  --ff-text: 'Nunito Sans 10pt';
+
+  /* Font Sizes */
+
+  --fz-title: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem); /* 20px - 32px */
+
+  --fz-subtitle: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem); /* 16px - 24px */
+
+  --fz-text: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem); /* 14px - 16px */
+
+  /* Colors */
+
+  --main-bg: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+
+  --accent-bg: linear-gradient(to bottom, #323232 0%, #3f3f3f 40%, #1c1c1c 150%),
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(0, 0, 0, 0.25) 200%
+    );
+
+  --tc_1: #e6e9f0;
+
+  --tc_2: #3f3f3f;
+}
