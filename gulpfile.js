@@ -7,6 +7,8 @@ const browserSync = require('browser-sync').create();
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const mediaquery = require('postcss-combine-media-query');
+const cssnano = require('cssnano');
+
 
 function serve() {
   browserSync.init({
@@ -34,7 +36,8 @@ function fonts() {
 function css() {
     const plugins = [
         autoprefixer(),
-        mediaquery()
+        mediaquery(),
+        cssnano()
     ];
 
     return gulp
