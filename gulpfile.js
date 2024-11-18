@@ -3,8 +3,10 @@ const concat = require('gulp-concat-css');
 const plumber = require('gulp-plumber');
 const del = require('del');
 const browserSync = require('browser-sync').create();
+// PostCSS и его плагины
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
+const mediaquery = require('postcss-combine-media-query');
 
 function serve() {
   browserSync.init({
@@ -30,7 +32,10 @@ function fonts() {
 }
 
 function css() {
-    const plugins = [autoprefixer()]
+    const plugins = [
+        autoprefixer(),
+        mediaquery()
+    ];
 
     return gulp
         .src('src/style.css')
