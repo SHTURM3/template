@@ -37,13 +37,15 @@ function css() {
 
 function images() {
   return gulp
-    .src('src/images/**/*.{jpg,png,svg,gif,ico,webp,avif}')
+    .src('src/images/*.{jpg,png,svg,gif,ico,webp,avif}')
+    .pipe(plumber())
     .pipe(gulp.dest('dist/images/'));
 }
 
 function fonts() {
   return gulp
-    .src('src/fonts/**/*.{eot,ttf,woff,woff2,svg}')
+    .src('src/fonts/*.{eot,ttf,woff,woff2,svg}')
+    .pipe(plumber())
     .pipe(gulp.dest('dist/fonts/'));
 }
 
