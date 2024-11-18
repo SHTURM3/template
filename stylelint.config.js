@@ -16,7 +16,7 @@ module.exports = {
     'media-query-no-invalid': true,
     'named-grid-areas-no-invalid': true,
     'named-grid-areas-no-invalid': null,
-    'no-invalid-position-at-import-rule': true,
+    'no-invalid-position-at-import-rule': null,
     'string-no-newline': null,
     'no-irregular-whitespace': null,
     'custom-property-no-missing-var-function': true,
