@@ -19,11 +19,14 @@
   "author": "vizet",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "browser-sync": "^3.0.3",
     "del": "^6.0.0",
     "gulp": "^5.0.0",
     "gulp-concat-css": "^1.2.0",
-    "gulp-plumber": "^1.2.1"
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "postcss": "^8.4.49"
   },
   "dependencies": {
     "prettier": "^3.3.3",
